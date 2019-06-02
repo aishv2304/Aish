@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aishwarryavarshney.project2.SeeResolvedHistory">
+    <Spinner
+        android:id="@+id/states1"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="113dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/cities1"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="159dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/localities1"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="203dp"
+        tools:ignore="MissingConstraints" />
+    <Spinner
+        android:id="@+id/latlongi1"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteY="243dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+       android:text="Uploader's Email Id :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/bgcolor"
+        android:textSize="23sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/emailtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/bgcolor"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/buttonmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Click Here to See Location"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="403dp"
+        android:layout_marginTop="430dp"/>
+
+</RelativeLayout>

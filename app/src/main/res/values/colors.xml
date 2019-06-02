@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgcolor">#809fff</color>
+    <color name="bgcolor1">#80ccff</color>
+    <color name="bgcolor2">#9999ff</color>
+    <color name="bgcntrol">#FFFFFF</color>
+    <color name="bgtitle">#7FFFD4</color>
+    <color name="cltitle">#A52A2A</color>
+    <color name="fbback">#6495ED</color>
+    <color name="gmailback">#000FF0</color>
+    <color name="submitback">#00FF00</color>
+</resources>

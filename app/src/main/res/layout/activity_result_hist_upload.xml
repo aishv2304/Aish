@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aishwarryavarshney.project2.ResultHistUpload">
+    <Spinner
+        android:id="@+id/states"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="113dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/cities"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="159dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/localities"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="203dp"
+        tools:ignore="MissingConstraints" />
+    <Spinner
+        android:id="@+id/latlongi"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteY="243dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your email id will also be uploaded"
+        android:layout_marginTop="280dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/bgcolor2"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/buttonseeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here To See Your Selected location in map"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="403dp"
+        android:layout_marginTop="370dp"/>
+
+    <Button
+        android:id="@+id/buttonResolved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here to Post Resolved Issues"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="403dp"
+        android:layout_marginTop="430dp"/>
+</RelativeLayout>

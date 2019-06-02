@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="14dp"
+    android:paddingRight="12dp"
+    android:paddingTop="14dp"
+    android:background="@drawable/smallroadb"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:textColor="@color/bgcntrol"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="34dp"
+        />
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter First Name"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/bgcntrol"
+        android:layout_marginTop="80dp"
+        />
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Last Name"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/bgcntrol"
+        android:layout_marginTop="130dp"
+        />
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter email"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/bgcntrol"
+        android:layout_marginTop="180dp"
+        />
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Password"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/bgcntrol"
+        android:layout_marginTop="230dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/cpw"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter to confirm password"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/bgcntrol"
+        android:layout_marginTop="290dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/mobilenum"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Mobile Number"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/bgcntrol"
+        android:layout_marginTop="340dp"
+        />
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bgcntrol"
+        android:textAlignment="center"
+        android:hint="SUBMIT"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="410dp"
+        />
+</RelativeLayout>

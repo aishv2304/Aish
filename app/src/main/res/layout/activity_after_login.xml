@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="14dp"
+    android:paddingRight="12dp"
+    android:paddingTop="14dp"
+    android:background="@drawable/road"
+    tools:context=".AfterLogin">
+
+    <TextView
+        android:id="@+id/mainT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="@color/bgcntrol"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/bgcntrol"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/lname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/bgcntrol"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/bgcntrol"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnupload1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/bgcntrol"
+        android:text="Do you want to Upload Photos?"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btnretreive1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/bgcntrol"
+        android:text="Do you want to Retreive Photos?"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btnresolve"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bgcntrol"
+        android:text="Do you want to update Resolved Issues?"
+        android:textSize="18dp"
+        android:paddingLeft="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btnresolvesee"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bgcntrol"
+        android:text="Do you want to see Resolved Issues?"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="420dp"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>
